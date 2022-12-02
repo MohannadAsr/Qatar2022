@@ -1,0 +1,459 @@
+@font-face {
+  font-family: qatar;
+  src: url(./font/Qatar2022Arabic-Bold.ttf);
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  font-family: "qatar";
+  scroll-behavior: smooth !important;
+}
+
+
+
+ul {
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+a {
+  color: #9f2046 !important;
+  text-decoration: none !important;
+  position: relative;
+  transition: all 0.3s linear;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.input-group {
+  background-color: transparent !important;
+  border-color: #1F1E1E !important;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fcfcfc !important;
+}
+
+::-webkit-scrollbar {
+  background-color: #1F1E1E;
+  width: 10px;
+}
+
+
+.btn-primary {
+  background-color: #ff0c47 !important;
+  background-color: #1F1E1E !important;
+  border: none !important;
+  color: #fcfcfc !important;
+}
+
+.btn-primary.active,
+.btn-primary:hover {
+  background-color: #ff0c47 !important;
+}
+
+.black-hr {
+
+  color: #1F1E1E !important;
+  height: 2px;
+  opacity: 1 !important;
+}
+
+.dropdown-toggle {
+  background-color: #fcfcfc !important;
+  color: #1F1E1E !important;
+}
+
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  background-color: #1F1E1E !important;
+  color: #fcfcfc !important;
+  box-shadow: none !important;
+}
+
+
+
+.dropdown-item.active,
+.dropdown-item:focus {
+  background-color: #8d8b8b !important;
+  color: #fcfcfc !important;
+}
+
+
+
+
+.loading-page {
+
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "qatar";
+  position: fixed;
+
+}
+
+.loading-page .logo {
+  transform: translateY(-60px);
+  animation: logo-loading 1s linear infinite alternate;
+}
+
+@keyframes logo-loading {
+  0% {
+    transform: translateY(-60px);
+
+  }
+
+  100% {
+    transform: translateY(-40px);
+
+  }
+}
+
+.loading-dot {
+  animation: load-dots 2s linear infinite alternate-reverse;
+}
+
+.loading-dot:nth-child(2) {
+  animation-delay: .5s;
+}
+
+.loading-dot:nth-child(3) {
+  animation-delay: 1s;
+}
+
+
+@keyframes load-dots {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+.nav-bar {
+  background-image: linear-gradient(to right, #ff0c47, #c50937);
+  box-shadow: 0px 0px 5px 2px #333;
+
+}
+
+
+.landing {
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.landing::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #1f1e1ec6;
+  background-image: linear-gradient(to right, #1f1e1e57, #312c2c, #1f1e1e61);
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+}
+
+.countdown-heading {
+  font-size: 42px;
+  position: relative;
+  width: fit-content;
+  text-align: center;
+
+
+
+}
+
+
+
+.final-counter {
+  font-size: 27px;
+  color: #fcfcfc;
+
+}
+
+.count-num {
+
+  font-size: 30px;
+  color: #c50937;
+}
+
+.count-text {
+  color: #fcfcfc;
+
+}
+
+
+.landing .content {
+  z-index: 2;
+}
+
+.groups-section {
+  background-color: #c50937;
+  background-image: linear-gradient(to right, #1F1E1E, #c50937, #1F1E1E);
+}
+
+.groups-section .group {
+  background-color: #1F1E1E;
+  border-radius: 2px;
+  box-shadow: 0px 0px 12px 1px #1F1E1E;
+
+
+
+}
+
+.groups-section .group .group-name {
+  background-color: #fcfcfc;
+  border-radius: 6px;
+  color: #1F1E1E;
+  padding: 4px 1px;
+  box-shadow: 0px 0px 4px 1px #fcfcfc;
+
+
+}
+
+.groups-section .group .team-img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #1F1E1E;
+
+}
+
+.today-games {
+
+  background-image: linear-gradient(to right, #858383, #fcfcfc, #858383);
+  color: white;
+}
+
+.logo-content {
+  width: 100px;
+  animation: logo-loading-content 1s linear infinite alternate;
+}
+
+
+@keyframes logo-loading-content {
+  0% {
+    transform: translateY(-0px);
+
+  }
+
+  100% {
+    transform: translateY(-10px);
+
+  }
+}
+
+
+
+
+.game {
+  background-color: #1F1E1E;
+  color: #fcfcfc;
+  margin: 30px 0;
+  border-radius: 6px;
+
+  box-shadow: 0px 0px 12px 1px #1F1E1E;
+
+}
+
+.home-team,
+.away-team {
+  min-width: 100px;
+  margin: 0 5px;
+}
+
+.away-team {
+  text-align: right;
+}
+
+.playing-now {
+  color: #ff0c47;
+  animation: playing 0.5s linear infinite alternate;
+}
+
+@keyframes playing {
+  0% {
+    color: #ff0c47;
+  }
+
+  100% {
+    color: #fcfcfc;
+  }
+}
+
+.winner {
+  color: gold !important;
+}
+
+.finall {
+  border: 4px solid gold;
+}
+
+.winner-score {
+  color: gold;
+}
+
+.stadiums-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.stadiums {
+  margin-bottom: 1px;
+  position: relative;
+}
+
+.stadium-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px !important;
+
+
+}
+
+.stadium-info {
+  background-color: #ff0c47;
+  background-image: linear-gradient(to right, #3a3939, #8a1538);
+  padding: 5rem 4rem !important;
+}
+
+.stadium-img {
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.footer-section {
+  background-color: #eeeee4;
+}
+
+
+.footer-section .facebook:hover {
+
+  transform: scale(1.12);
+
+}
+
+.footer-section .whatsapp:hover {
+
+  transform: scale(1.12);
+}
+
+.footer-section .github:hover {
+
+  transform: scale(1.12);
+}
+
+.info-page {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "qatar";
+  position: fixed;
+}
+
+.info-page .tips {
+  overflow: auto;
+  height: 50vh;
+}
+
+.info-page .tips.wide {
+  height: 70vh;
+}
+
+
+.start-lang {
+  cursor: pointer;
+}
+
+.start-lang.active {
+  color: white;
+
+}
+
+.start-lang.unactive {
+  color: #0f0f0f;
+  opacity: 0.5;
+}
+
+.start-btn {
+  background-color: #1F1E1E;
+  padding: 7px 30px;
+  color: #fcfcfc;
+  border: none !important;
+  border-radius: 10px;
+  transition: 0.15s linear;
+}
+
+.start-btn:hover {
+  color: #1F1E1E;
+  background-color: #fcfcfc;
+}
+
+.empty-matches {
+  color: #3a3939;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  padding: 2rem;
+}
+
+.flow-info {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f6f3f4;
+  left: 10px;
+  bottom: 10px;
+  z-index: 100000;
+  box-shadow: -2px 2px 10px 2px #1f1e1e;
+  background-image: linear-gradient(to right, #343838, #515e61);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.flow-info:hover {
+  transform: scale(1.1);
+}
