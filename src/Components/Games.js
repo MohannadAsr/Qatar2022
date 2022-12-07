@@ -213,7 +213,7 @@ if(`${filterDate}`.length < 2) {
         </MediaQuery> 
         </> 
         : 
-        <div className='empty-matches'>There is No Matches For Today</div> }
+        <div className='empty-matches'>{lang === "ar" ? `لايوجد مباريات في هذا اليوم` : `There Are No Games in this Day` }</div> }
         </> 
         : 
         <>
