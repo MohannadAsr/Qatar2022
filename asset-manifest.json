@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Qatar2022/static/css/main.5e8ff7cb.css",
-    "main.js": "/Qatar2022/static/js/main.ad32aade.js",
+    "main.js": "/Qatar2022/static/js/main.ca91f552.js",
     "static/media/AlbaytIcon.webp": "/Qatar2022/static/media/AlbaytIcon.b552d016f4c0dacdddfe.webp",
     "static/media/AhmadIcon.webp": "/Qatar2022/static/media/AhmadIcon.09c4ab7a9e02c34f4f4d.webp",
     "static/media/EducationIcon.webp": "/Qatar2022/static/media/EducationIcon.bda0a40e26079be403a0.webp",
@@ -71,10 +71,10 @@
     "static/media/Netherlands.webp": "/Qatar2022/static/media/Netherlands.6246bb2fb8ba51986d63.webp",
     "static/media/Belgium.webp": "/Qatar2022/static/media/Belgium.57bbadf532ad6b450f9a.webp",
     "main.5e8ff7cb.css.map": "/Qatar2022/static/css/main.5e8ff7cb.css.map",
-    "main.ad32aade.js.map": "/Qatar2022/static/js/main.ad32aade.js.map"
+    "main.ca91f552.js.map": "/Qatar2022/static/js/main.ca91f552.js.map"
   },
   "entrypoints": [
     "static/css/main.5e8ff7cb.css",
-    "static/js/main.ad32aade.js"
+    "static/js/main.ca91f552.js"
   ]
 }
